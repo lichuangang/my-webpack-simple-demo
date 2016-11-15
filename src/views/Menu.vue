@@ -5,9 +5,6 @@
       <el-menu-item-group title="分组一">
         <el-menu-item index="/Airport/depart">出发航班</el-menu-item>
         <el-menu-item index="/Airport/arrive">到达航班</el-menu-item>
-        <router-link tag="li" to="/about">
-          <a>About</a>
-        </router-link>
       </el-menu-item-group>
     </el-submenu>
     <el-menu-item index="/home"><router-link to="/home"><i class="el-icon-menu"></i>用户管理</router-link></el-menu-item>
